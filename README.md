@@ -1,6 +1,6 @@
 # Spotify - Tela Inicial (Web)
 
-Recriação da atual Tela Inicial (Janeiro de 2022 do Spotify Web).
+Recriação da atual Tela Inicial do Spotify (Janeiro de 2022).
 
 Tecnologias Utilizadas: HTML e CSS.
 
