@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 100%;
+    font-family: Helvetica,Arial,sans-serif;      
+    font-weight: bolder;
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    background: black;
+    display: flex;
+}
+
+.logo-header {
+    padding: 20px 8%;
+    width: 38%;
+}
+
+.menu {
+    padding: 33px;
+    flex: 1;
+    color: white;  
+    font-size: 15px;    
+}
+
+.menu ul {
+    list-style: none;
+    
+}
+
+.menu li {
+    display: inline;
+    width: 10%;
+    padding-right: 6%;  
+}
+
+.banner {
+  background: #2941AB;
+  height: 800px;
+}
+
+
+footer {
+    width: 100%;
+    height: 500px;
+    background: black;
+}
+
+a  {
+    text-decoration: none;
+    color: white;
+}
+
+li :hover{
+    color: #1ED760
+}
+
+.frase-banner {
+    padding-top: 16%;
+    color: #1ED760;
+    text-align: center;
+}
+
+.principal {
+    font-size: 128px;
+    font-weight: 800;
+    letter-spacing: -3px;
+    white-space: break-spaces;
+    line-height: 126px;
+}
+
+.subtitulo {
+    padding-top: 73px;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.baixar {
+    margin-top: 4%;
+    border-radius: 30px;
+    height: 50px;
+    border: #1ED760;
+    background-color: #1ED760;
+    color: #2941AB;    
+    font-weight: 800;
+    width: 220px;
+}
+
+.frase-banner .baixar:hover {
+    background-color: #43E57D;
+    animation: pulse 0.1s both;
+  }
+
+  @keyframes pulse {
+    0% {
+     transform: scale(1);
+    }
+      100% {
+       transform: scale(1.05);
+    }
+  }
+
+
+.back-banner {
+    background-image: url(https://www-growth.scdn.co/static/home/bursts.svg);
+    background-size: 175%;
+    background-position: 46% 4%;
+    -webkit-box-pack: center;
+    justify-content: center;
+    min-height: 846px;
+}
+
+.logo-footer {
+    padding: 80px 8%;
+    width: 5%;
+    display: inline-block;
+}
+
+.abas {
+    display: inline-block;
+    position: absolute;
+}
+
+.titulo-aba {
+    color: #919496;
+    font-size: 12px;
+    padding-bottom: 23px;
+}
+
+.empresa {
+    padding-top: 98px;
+}
+
+.comunidades {
+    padding-top: 97px;  
+    position: absolute;
+}
+
+.links-uteis {
+    padding-left: 222px;
+}
+
+.aba {
+    display: inline-block;
+    margin-right: 100px;  
+     
+}
+
+.aba li {
+    padding-bottom: 23px;
+    font-weight: normal;
+}
+
+.redes-sociais {
+    margin: -170px 11px;
+    margin-left: 80%;
+}
+
+.circle {
+    display: inline-block !important;
+    margin-right: 15px;
+    width: 60px;
+    display: block;
+    padding-top: 100px;  
+    background: radial-gradient(circle closest-side,#222326 0%,#222326 98%,rgba(0,0,0,0) 100%);
+}
+
+.rede-social {
+    display: block;
+    width: 24px px;
+    height: 30px;
+    width: 30px;
+    margin-bottom: 96px;
+    margin: left;
+    margin-left: 14.5px;
+}
+
+#instagram {
+    background: no-repeat url(./images/instagram.svg),currentColor;
+}
+
+#facebook {
+    background: no-repeat url(./images/facebook.svg),currentColor;
+}
+
+#twitter {
+    background: no-repeat url(./images/twitter.svg),currentColor;
+}
+
+.infos-gerais {
+    padding: 25% 0 0 21%;
+    color: #919496;
+    font-weight: normal;
+}
